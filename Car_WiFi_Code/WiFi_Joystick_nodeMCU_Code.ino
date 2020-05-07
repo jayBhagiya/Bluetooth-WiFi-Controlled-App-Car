@@ -8,8 +8,8 @@ SoftwareSerial sw(D7, D8);
 
 char buff[5];
 
-const char* ssid = "workshop_7";
-const char* password = "qwertyuiop";
+const char* ssid = "**Your WiFi**";
+const char* password = "**Your Passward**";
 
 void setup() {
   Serial.begin(9600);
